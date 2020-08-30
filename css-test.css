@@ -57,8 +57,10 @@ a:link {
     margin-bottom: 10px;
     margin-right: 15px;
     margin-left: 8px;
+    display: none;
   }
 
   table{
     outline: #ca7b21 dashed 15px;
   }
+
