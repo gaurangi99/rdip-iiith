@@ -2,6 +2,27 @@ body {
     color: indigo;
     font-size: 2rem;
     font-family: serif;
-    font-style: italic;
+    font-style: italic; 
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: hotpink;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: blue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: red;
   }
 
+  
