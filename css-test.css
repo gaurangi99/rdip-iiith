@@ -1,5 +1,6 @@
 body {
     background-color: lightcyan;
+    color: hotpink;
   }
   
   h1 {
@@ -7,6 +8,10 @@ body {
     text-align: left;
   }
   
+  h2{
+      color: green;
+  }
+
   p {
     font-family: verdana;
     font-size: 10px;
