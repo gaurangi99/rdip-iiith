@@ -64,3 +64,8 @@ a:link {
     outline: #ca7b21 dashed 15px;
   }
 
+  div.static {
+    position: static;
+    border: 3px solid #8ff106;
+  }
+
