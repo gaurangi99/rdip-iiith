@@ -62,3 +62,11 @@ a:link {
     outline: #ca7b21 dashed 15px;
   }
 
+  .courses_left{
+      text-align: left;
+  }
+
+  .marks_right{
+    text-align: right;
+}
+
