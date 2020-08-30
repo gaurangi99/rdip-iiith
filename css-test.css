@@ -70,3 +70,7 @@ a:link {
     text-align: right;
 }
 
+tr:nth-child(even) {
+    background-color: #665d5d73;
+  }
+
