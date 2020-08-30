@@ -25,4 +25,25 @@ a:link {
     color: red;
   }
 
+  ol {
+    list-style-type: upper-roman;
+    background: rgb(83, 238, 83);
+    padding: 20px;
+  }
   
+  ul {
+    list-style-type: square;
+    background: #cf33ff;
+    padding: 20px;
+  }
+  
+  ol li {
+    background: #d2ebb1;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #e5aeec;
+    margin: 5px;
+  }
