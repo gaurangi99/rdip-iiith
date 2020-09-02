@@ -35,6 +35,22 @@
             <td style="border: 1px solid black;border-collapse: collapse;" class="courses_left">ML</td>
             <td class="marks_right">48</td>
         </tr>
+        <tr style="border: 2px solid black;border-collapse: collapse;">
+            <td style="border: 1px solid black;border-collapse: collapse;" class="courses_left">Total Marks</td>
+            <td class="marks_right" id="totalMarks"></td>
+        </tr>
+        <tr style="border: 2px solid black;border-collapse: collapse;">
+            <td style="border: 1px solid black;border-collapse: collapse;" class="courses_left">Average</td>
+            <td class="marks_right" id="avg"></td>
+        </tr>
     </table>
+
+    <script>
+        let totalMarks=(55+45+50+48);
+        document.getElementById("totalMarks").innerHTML=totalMarks;
+        var avg=totalMarks/4;
+        document.getElementById("avg").innerHTML=avg;
+    </script>
+
 </body>
 </html>

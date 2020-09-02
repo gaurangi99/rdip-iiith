@@ -22,3 +22,7 @@ console.log(5 << 1);
 console.log(5 >> 1);
 console.log(5 >>> 1);
 console.log();
+
+let totalMarks=(55+45+50+48);
+var avg=totalMarks/4;
+console.log(avg);

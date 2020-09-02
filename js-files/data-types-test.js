@@ -37,3 +37,6 @@ console.log(typeof null);
 person=null;
 console.log(person);
 
+//type conversion of a number type field in an array to string
+var arr=[1,2,3,4,5];
+console.log(String(arr[3]));
