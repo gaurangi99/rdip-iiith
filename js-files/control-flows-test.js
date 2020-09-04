@@ -8,17 +8,17 @@ function numCheckByIf(num){
 }
 
 function numCheckBySwitch(num){
-    var q=num/10;
+    var q=Math.floor(num/10);
     switch(q){
-        case 10:
-        case 20:
-        case 30:
-        case 40:
-        case 50:
-        case 60:
-        case 70:
-        case 80:
-        case 90:console.log("Between 10-100.");
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+        case 7:
+        case 8:
+        case 9:console.log("Between 10-100.");
                 break;
         default:console.log("Not in Between 10-100.");
                 break;
@@ -39,5 +39,5 @@ function fib(elements){
 }
 
 numCheckByIf(65);
-numCheckBySwitch(4334);
+numCheckBySwitch(325);
 console.log(fib(6));
