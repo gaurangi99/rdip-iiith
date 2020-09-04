@@ -6,12 +6,19 @@
     <title>Personal Details</title>
     <link href="test-webpage-stylesheet.css" rel="stylesheet">
 </head>
-<body>
+<body onload="onPd()">
+    <h1 id="pd"></h1>
     <ul>
         <li><a href="Home.html">Home</a></li>
         <li><a href="Registration.html">Registration</a></li>
         <li><a href="Personal Details.html">Personal Details</a></li>
       </ul><br>
     <p>This is the personal details page.</p>
+
+    <script>
+        function onPd(){
+            document.getElementById("pd").innerHTML="Page Loaded";
+        }
+    </script>
 </body>
 </html>
