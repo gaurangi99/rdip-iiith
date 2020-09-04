@@ -1,3 +1,2 @@
-var curDate=new Date();
-curDate.setDate(5);
+var curDate=new Date(2002,0,13);
 console.log(curDate);
