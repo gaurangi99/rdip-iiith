@@ -1,1 +1,2 @@
-console.log(Date());
+var curDate=Date();
+console.log(curDate);
