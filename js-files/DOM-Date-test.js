@@ -1,2 +1,2 @@
-var curDate=Date();
+var curDate=new Date();
 console.log(curDate);
