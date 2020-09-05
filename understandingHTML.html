@@ -5,12 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaurangi Agrawal</title>
 
-    // Bootstrap CSS library
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- // Bootstrap CSS library
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
+    </script>
+
+    <script> 
+        $(document).ready(function(){
+        $("p").dblclick(function(){
+            $( this ).toggleClass("dblStyleClass");
+        });
+        });
+    </script>
+    
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){ $("#click").toggle();
+        });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+        $("button").click(function(){
+            $("#div1").fadeIn(3000);
+            $("#div2").fadeIn("slow");
+        });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#div3").fadeOut();
+                $("#div4").fadeOut("fast");
+            });
+        });
+    </script>
+
+    <style>
+        .dblStyleClass{
+            color: black;
+            background-color: green;
+        }
+    </style>
 
     <link href="css-test.css" rel="stylesheet">
 </head>
 <body>
+    <p>Double Click here!</p>
+
+    <button>Click to check hide() & show() on toggle</button>
+    <div id="click">Effect of Toggle().</div>
+
+    <button>Click to fade in boxes.</button><br><br>
+    <div id="div1" style="width:50px;height:50px;display:none;background-color:rgb(95, 4, 156);"></div><br>
+    <div id="div2" style="width:50px;height:50px;display:none;background-color:rgb(185, 11, 92);"></div><br>
+
+    <button>Click to fade out boxes.</button><br><br>
+    <div id="div3" style="width:50px;height:50px;background-color:rgb(6, 6, 238);"></div><br>
+    <div id="div4" style="width:50px;height:50px;background-color:red;"></div><br>
+
     <div style="border:dashed;border-color: aquamarine;">
         <h1>Name: Gaurangi Agrawal</h1>
         <h2>College: JSS Academy of Technical Education, Noida, U.P.</h2>
@@ -20,17 +76,17 @@
         <img id="jupiter" src="../rdip-iiith/images/photo-1576158113840-43db9ff3ef09.jpg" alt="Looks like Jupiter's surface" style="width:250px;height:250px;position: absolute;top:0px;right:0px;bottom:auto;left:auto;border:10px ridge yellowgreen;">
     </div>
 
-    // jQuery library
+    <!-- // jQuery library
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity=
     "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
     crossorigin="anonymous"></script> -->
 
-    //Popper.js
+    <!-- //Popper.js
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 
     //JS plug-ins
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> --> -->
 
     <script>
         $("#clickmeHide").click(function(){
